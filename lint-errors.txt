@@ -1,0 +1,157 @@
+﻿
+> vite_react_shadcn_ts@0.0.0 lint
+> eslint .
+
+
+D:\starhospital-main\src\components\chatbot\MayaChatbot.tsx
+   58:6   warning  React Hook useEffect has a missing dependency: 'speak'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+   62:26  error    Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+   86:26  error    Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+   94:6   warning  React Hook useEffect has a missing dependency: 'toast'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+  210:81  error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free          @typescript-eslint/ban-ts-comment
+  215:38  error    Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+  231:43  error    React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+  231:91  error    Unexpected any. Specify a different type                                                                                     @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\dashboard\AICalculator.tsx
+  12:88  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  28:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  40:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  48:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\layout\Header.tsx
+  42:26  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\layout\Sidebar.tsx
+  72:29  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\modals\PatientDetailsModal.tsx
+  18:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\modals\PermissionRequestModal.tsx
+  71:25  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\modals\SetScheduleModal.tsx
+   66:8   warning  React Hook useEffect has a missing dependency: 'checkUserRole'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  121:25  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\modals\UploadReportModal.tsx
+  81:72  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\components\ui\badge.tsx
+  29:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\button.tsx
+  47:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\command.tsx
+  24:11  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+D:\starhospital-main\src\components\ui\form.tsx
+  129:10  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\navigation-menu.tsx
+  111:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\sidebar.tsx
+  636:3  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\sonner.tsx
+  27:19  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\components\ui\textarea.tsx
+  5:18  error  An interface declaring no members is equivalent to its supertype  @typescript-eslint/no-empty-object-type
+
+D:\starhospital-main\src\components\ui\toggle.tsx
+  37:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\contexts\AuthContext.tsx
+  16:14  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+D:\starhospital-main\src\hooks\useDoctors.ts
+  17:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\Callbacks.tsx
+   80:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  176:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\Patients.tsx
+  48:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\Settings.tsx
+  31:8   warning  React Hook useEffect has a missing dependency: 'checkUserRole'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  71:25  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\admin\AdminInfo.tsx
+   25:86  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   27:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   35:63  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   36:69  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   37:69  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   41:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   42:46  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   43:49  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:37  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:58  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  111:54  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  112:52  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  114:40  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  141:45  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  256:71  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\patient\PatientDashboard.tsx
+   78:65   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   78:112  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  445:51   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  458:46   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  694:47   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\CashierDashboard.tsx
+  15:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  20:36  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  22:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\DoctorDashboard.tsx
+   44:74  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  341:88  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  363:90  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\Salaries.tsx
+   42:27  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   44:81  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   52:27  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   57:59  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   58:65  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   59:65  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   60:56  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   63:45  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   64:42  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   65:45  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+   84:21  error  'displayRole' is never reassigned. Use 'const' instead  prefer-const
+  106:43  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+  132:57  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+  184:26  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+  385:83  error  Unexpected any. Specify a different type                @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\StaffApprovals.tsx
+  143:22  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\StaffLogin.tsx
+  57:42  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\src\pages\staff\StaffRegister.tsx
+  75:44  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  94:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\supabase\functions\vapi-callback-request\index.ts
+  263:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\supabase\functions\vapi-webhook\index.ts
+  152:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+D:\starhospital-main\tailwind.config.ts
+  90:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 83 problems (71 errors, 12 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
